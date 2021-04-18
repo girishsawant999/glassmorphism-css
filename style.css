@@ -68,7 +68,7 @@ body::after {
   transition: 0.5s;
 }
 .container .card:hover .content {
-  transform: translateY(0) translateZ(-100px);
+  transform: translateY(0) translateZ(20px);
 }
 
 .container .card .content h2 {
@@ -80,7 +80,7 @@ body::after {
   pointer-events: none;
 }
 .container .card:hover .content h2 {
-  transform: translateZ(-100px);
+  transform: translateZ(-20px);
 }
 .container .card .content h3 {
   font-size: 1.8em;
